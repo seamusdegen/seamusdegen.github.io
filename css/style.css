@@ -1,0 +1,245 @@
+body{
+  background-image: url("../img/shattered-island.jpg");
+}
+
+h1 img{
+  object-fit: contain;
+}
+
+nav{
+  font-family: 'Bungee', cursive, sans-serif;
+  color: rgb(255, 255, 255)
+
+}
+
+nav ul{
+  padding-left: 0px;
+}
+
+nav li{
+  display: inline;
+
+}
+
+nav li a {
+  border: 1px solid white;
+  padding: 10px;
+  background-color: none;
+}
+
+nav li a:hover{
+  color: rgb(173,255,173);
+}
+nav li a:visited{
+  color: rgb(173,173,255);
+}
+
+.gameshowcase1 img{
+  margin-top: 25px;
+  border: 2px solid white;
+
+}
+
+
+
+#gameshowcase h2{
+  font-family: 'Bungee', cursive, sans-serif;
+  color: rgb(173,255,255);
+  padding:3px;
+}
+#gameshowcase p {
+  font-family: 'Roboto Slab', sans-serif;
+  color: rgb(214, 214, 214);
+}
+
+#members h2 {
+  font-family: 'Bungee', cursive, sans-serif;
+  color: rgb(255,173,173);
+  padding:3px;
+}
+#members ul{
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+
+#members li{
+  font-family: 'Roboto Slab', sans-serif;
+  color: rgb(214, 214, 214);
+  list-style-type: none;
+}
+
+#rocket h2{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,255,173);
+}
+#rocket p{
+  font-family: 'Roboto Slab',sans-serif;
+  color:rgb(214,214,214);
+}
+
+#newr h2{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,173,255);
+}
+.soon li{
+  font-family: 'Roboto Slab', sans-serif;
+  color:rgb(214,214,214);
+}
+
+
+.Mako h2 {
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,255,173);
+}
+.mako h3{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,173,255);
+}
+.mako ul,p {
+  font-family: 'Roboto Slab', sans-serif;
+  color:rgb(173,173,255);
+}
+.mako a{
+  color:rgb(173,255,173)
+}
+.mako a:visited{
+  color:rgb(255,97,97)
+}
+.mako a:hover{
+  color:rgb(173,255,255)
+}
+
+
+.Vest h2 {
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,255,173);
+}
+.vest1 h3{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,173,255);
+}
+.vest1 ul,p {
+  font-family: 'Roboto Slab', sans-serif;
+  color:rgb(173,173,255);
+}
+.vest1 a{
+  color:rgb(173,255,173)
+}
+.vest1 a:visited{
+  color:rgb(255,97,97)
+}
+.vest1 a:hover{
+  color:rgb(173,255,255)
+}
+
+
+.weasel1 h2 {
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,255,173);
+}
+.weasel h3{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,173,255);
+}
+.weasel ul,p {
+  font-family: 'Roboto Slab', sans-serif;
+  color:rgb(173,173,255);
+}
+.weasel a{
+  color:rgb(173,255,173);
+}
+.weasel a:visited{
+  color:rgb(255,97,97);
+}
+.weasel a:hover{
+  color:rgb(173,255,255);
+}
+#About h2{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,255,173);
+}
+
+
+h2{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173, 255, 173);
+}
+
+.modernwarfare ul{
+  font-family: 'Roboto Slab', sans-serif;
+  color:rgb(173,255,173);
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  list-style-type: none;
+  border-radius: 10px;
+  margin-right: 1200px;
+}
+.bo4 ul{
+  font-family: 'Roboto Slab', sans-serif;
+  color:rgb(173,255,173);
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  list-style-type: none;
+  border-radius: 10px;
+  margin-right: 1000px;
+}
+.rocketleague ul{
+  font-family: 'Roboto Slab', sans-serif;
+  color:rgb(173,255,173);
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  list-style-type: none;
+  border-radius: 10px;
+  margin-right: 1000px;
+}
+
+.mainclip h1{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,255,173);
+}
+
+.mainclip a{
+  font-family: 'Bungee', cursive, sans-serif;
+  color:rgb(173,255,173);
+}
+
+main{
+  margin:0px;
+  padding:0px;
+}
+
+.wrapper {
+  display:grid;
+  width: 100%;
+  margin:0;
+  grid-template-columns: 1160px 200px
+}
+
+.wrapper1 {
+  display:grid;
+  width: 100%;
+  margin:0;
+  grid-template-columns: 948px 474px;
+  grid-template-rows: 600px 600px 600px 400px;
+}
+.mako{
+  grid-column-start:2;
+}
+.Vest{
+  grid-column-start:1
+}
+.vest1{
+  grid-column-start:2;
+  grid-row-start: 2;
+}
+.weasel1{
+  grid-row-start: 3;
+  grid-column-start:1;
+}
+.about{
+  grid-row-start:3;
+}
